@@ -46,6 +46,9 @@ EXAMPLES = '''
 - php_module: state=absent name=gd
 '''
 
+RETURN = '''
+'''
+
 import re
 
 def _run_threaded(module):
